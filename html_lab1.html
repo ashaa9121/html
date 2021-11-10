@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM</title>
+    </head>
+    <body>
+        <center>
+        <h2><u>Fill this Form</u></h2>
+        <form action="">
+
+        <label for="name">Enter Name:</label> &nbsp;
+        <input type="text" name="name" placeholder="Please enter your name" required maxlength="25">
+        <br><br>
+
+        <label for="email">Enter Email:</label> &nbsp;
+        <input type="text" name="email" value="test@example.com" required autofocus>
+        <br><br>
+
+        <label for="password">Enter Password:</label>
+        <input type="password" name="password" required minlength="6">
+        <br><br>
+
+        <label for="category">Select Category:</label> &nbsp;&nbsp;&nbsp;
+        <select name="category" required>
+            <option>Student</option>
+            <option>Employee</option>
+            <option selected>Freelancer</option>
+        </select>
+        <br><br>
+
+        <label for="Event_date">Event Date:</label> &nbsp;&nbsp;
+        <input type="date" name="Event_date" required>
+        <br><br>
+
+        <label for="tickets">Select Ticket:</label> &nbsp;&nbsp;
+        <input type="radio" name="tickets" value="1 ticket" required>
+        <input type="radio" name="tickets" value="2 tickets" checked="checked">
+        <input type="radio" name="tickets" value="3 tickets">
+        <br><br>
+
+        <label for="online_payment">Online Payment:</label>&nbsp;&nbsp;
+        <input type="checkbox" name="online_payment" value="online_payment" required>
+        <br><br>
+
+        <label for="notes">Notes:</label>&nbsp;&nbsp;
+        <textarea name="notes" rows="3" cols="25" placeholder="Give description here....."></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit"> &nbsp;&nbsp;
+        <input type="reset" value="Reset">
+        
+    </form>
+    </center>
+    </body>
+</html>
